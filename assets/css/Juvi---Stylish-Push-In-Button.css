@@ -1,0 +1,46 @@
+.btn {
+  border-radius:0;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+  color:#ffffff;
+  text-decoration:none;
+  background-color:#1485ee;
+  border:none;
+}
+
+.btn {
+  font-family:'Roboto';
+  font-weight:400;
+}
+
+* {
+  margin:0;
+}
+
+.btn-style-1 {
+  display:inline-block;
+  /*padding:15px 25px;*/
+  font-size:24px;
+  cursor:pointer;
+  text-align:center;
+  text-decoration:none;
+  outline:none;
+  color:#fff;
+  background-color:#4CAF50;
+  border:none;
+  border-radius:5px;
+  box-shadow:0 9px #3e8e41;
+}
+
+.btn-style-1:hover {
+  background-color:#3e8e41;
+  box-shadow:0 9px #2d6730;
+}
+
+.btn-style-1:active {
+  background-color:#3e8e41;
+  box-shadow:0 5px #2d6730;
+  transform:translateY(4px);
+}
+
